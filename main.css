@@ -1,7 +1,7 @@
 :root{
     --transition: all 0.7s ease;
     --yellow: #f9d342;
-    --dark: #141414;
+    --dark: #7c7777;
 }
 *{
     box-sizing: border-box;
@@ -16,7 +16,7 @@ body{
     line-height: 1.6;
 }
 nav{
-    background-color: rgb(214, 213, 213);
+    background-color: #7c7777;
     height: 80px;
     width: 100%;
   }
@@ -101,11 +101,12 @@ nav{
             left: 0;
         }
     }
-.bg{
-        background: url(images/bg.jpg) no-repeat;
-        background-size: cover;
-        height: calc(100vh - 80px);
-    }
+  
+    .bg{
+            background: url(images/bg.jpg) no-repeat;
+            background-size: cover;
+            height: calc(100vh - 80px);
+        }
   
 .flex{
     display: flex;
